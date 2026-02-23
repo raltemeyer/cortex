@@ -9,10 +9,10 @@ import (
 
 // InferenceResult holds the outcome of running the inference engine.
 type InferenceResult struct {
-	EdgesCreated    int              `json:"edges_created"`
-	EdgesSkipped    int              `json:"edges_skipped"` // Already existed
-	RulesApplied    map[string]int   `json:"rules_applied"`
-	Proposals       []EdgeProposal   `json:"proposals,omitempty"` // For dry-run
+	EdgesCreated int            `json:"edges_created"`
+	EdgesSkipped int            `json:"edges_skipped"` // Already existed
+	RulesApplied map[string]int `json:"rules_applied"`
+	Proposals    []EdgeProposal `json:"proposals,omitempty"` // For dry-run
 }
 
 // EdgeProposal represents a proposed edge from inference.
