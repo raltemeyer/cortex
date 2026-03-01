@@ -306,3 +306,15 @@ MIT — [LICENSE](LICENSE)
 <p align="center">
   <sub>Built by <a href="https://github.com/hurttlocker">hurttlocker</a></sub>
 </p>
+
+---
+
+## Fork Notes (raltemeyer/cortex)
+
+This is a fork of [`hurttlocker/cortex`](https://github.com/hurttlocker/cortex) used as the working base for OpenClaw's custom cortex memory binary.
+
+- **Forked:** 2026-02-28
+- **Base tag:** `v1.0.0-base` — matches the upstream state at fork time
+- **Production binary:** `~/.local/bin/cortex` (v1.0.0, do not overwrite without testing)
+- **Purpose:** Custom modifications for OpenClaw agent memory layer
+- **Upstream remote:** configured as `upstream` for pulling future changes
